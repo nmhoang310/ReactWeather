@@ -3,7 +3,9 @@ var React = require('react');
 var Examples = React.createClass({
   render: function() {
     return (
-      <h3>Examples comp!!</h3>
+      <div>
+        <h3>Examples comp!!???</h3>
+      </div>
     )
   }
 });
