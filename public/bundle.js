@@ -26577,7 +26577,7 @@
 	    return React.createElement(
 	      'h3',
 	      null,
-	      'About comp!'
+	      'Welcome to the About component!'
 	    );
 	  }
 	});
@@ -26597,9 +26597,13 @@
 
 	  render: function render() {
 	    return React.createElement(
-	      'h3',
+	      'div',
 	      null,
-	      'Examples comp!'
+	      React.createElement(
+	        'h3',
+	        null,
+	        'Examples comp!!???'
+	      )
 	    );
 	  }
 	});
